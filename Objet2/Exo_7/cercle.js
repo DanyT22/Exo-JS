@@ -7,12 +7,12 @@ export class cercles extends figure{
     }
 
     calculerPerimetre(){
-        this.perimetre = (this.rayons * 2) * Math.PI
+        this.perimetre = Math.round((this.rayons * 2) * Math.PI)
         return this.perimetre
     }
 
     calculerSurface(){
-        this.surface = Math.PI * (this.rayons * this.rayons)
+        this.surface = Math.round(Math.PI * (this.rayons * this.rayons))
         return this.surface
     }
 }
