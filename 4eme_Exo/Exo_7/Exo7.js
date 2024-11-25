@@ -13,4 +13,3 @@ let x ={
 }
 
 console.log(compterProprietes(x));
-

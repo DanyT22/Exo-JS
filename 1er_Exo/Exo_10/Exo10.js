@@ -1,3 +1,5 @@
+// Avec while
+
 function random(min, max){
         return Math.round(Math.random() * (max - min) + min)
     }
@@ -25,4 +27,3 @@ for(valeur = random(100,999); valeur !== 222; valeur = random (100, 999)){
 }
 
 console.log(`Voici le nombre de coup : ${nombreCoupFor} pour que ${valeur} soit egal a 222`);
-

@@ -1,0 +1,53 @@
+html{
+    background-image: url(Img/Fond\ inscription.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+label{
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline red;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 50px;
+    width: 400px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+small{
+    color: red;
+    font-weight: 900;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    margin: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline red;
+}
